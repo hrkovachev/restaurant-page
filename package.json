@@ -1,0 +1,19 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Small restaurant webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrkovachev/restaurant-page.git"
+  },
+  "author": "Hristo Kovachev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrkovachev/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/hrkovachev/restaurant-page#readme"
+}
