@@ -21,7 +21,7 @@ export function renderPage() {
           </div>
         </div>
       </section>
-      <section class="section" id="main-content">
+      <section class="section container" id="main-content">
         <div data-content="1" class="tab is-active">
           <div class="columns is-vcentered is-cenered">
             <div class="column is-half">
