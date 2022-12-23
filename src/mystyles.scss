@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "FrederickaTheGreat";
+  src: url("./fonts/FrederickatheGreat-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+#content {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  min-width: fit-content;
+  background-repeat: repeat-y;
+}
+
+#top-area {
+  margin-top: 0;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+#tabs-area {
+  margin-top: -25px;
+  font-family: "FrederickaTheGreat";
+}
+
+#main-content > div {
+  display: none;
+}
+
+#main-content > div.is-active {
+  display: block;
+}
+
+#logo {
+  padding: 10px;
+}
+@media only screen and (max-width: 530px) {
+  #logo {
+    width: 64px;
+  }
+}
+
+.section {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+
+.panel-heading {
+  font-family: "FrederickaTheGreat";
+}
+
+.panel-block {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.has-text-shadow {
+  text-shadow: 1px 1px 2px black;
+}
+
+#contact-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  text-align: center;
+  gap: 15px;
+}
+
+#logo-contact {
+  max-height: 150px;
+  width: auto;
+  margin: 15px;
+}
+
+address {
+  font-weight: bold;
+}
+
+.my-footer {
+  /*width: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;*/
+  position: fixed;
+  right: 0;
+  top: 50%;
+  padding: 10px;
+  float: right;
+  transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  /* FF3.5+ */
+  -o-transform: rotate(270deg);
+  /* Opera 10.5 */
+  -webkit-transform: rotate(-90deg);
+  transform-origin: 100% 100%;
+  /* Saf3.1+, Chrome */
+  -moz-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  -webkit-transform-origin: 100% 100%;
+}
+
+.my-footer a {
+  font-weight: 600;
+}
+
+// Set your brand colors
+$jj-red: #e14437;
+$beige-lighter: #eff0eb;
+
+// Update Bulma's global variables
+$text: $beige-lighter;
+$tabs-link-active-color: $beige-lighter;
+$tabs-link-color: $jj-red;
+$tabs-link-hover-color: $jj-red;
+$tabs-border-bottom-color: $jj-red;
+$tabs-boxed-link-active-background-color: $jj-red;
+$tabs-boxed-link-active-border-color: $jj-red;
+
+/* Panels for the menu */
+$panel-heading-background-color: $jj-red;
+$panel-item-border: 1px solid $jj-red;
+$panel-heading-color: $beige-lighter;
+$panel-block-color: white;
+$panel-block-hover-background-color: none;
+.panel {
+  border: 1px solid $jj-red;
+}
+
+/*$tabs-link-color: $white-ter;*/
+$link: $jj-red;
+
+@import "~bulma/bulma";

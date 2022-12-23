@@ -4,7 +4,11 @@
   "description": "Small restaurant webpage",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve -open",
+    "server": "node server.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/hrkovachev/restaurant-page/issues"
   },
-  "homepage": "https://github.com/hrkovachev/restaurant-page#readme"
+  "homepage": "https://github.com/hrkovachev/restaurant-page#readme",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.2",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
 }
