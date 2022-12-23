@@ -70,7 +70,7 @@ export function renderPage() {
             </p>
             <span class="is-size-6" id="credits-design">
               Logo and design by
-              <a href="https:/dianagraf.de" target="_blank">dianagraf.de</a>
+              <a href="https://dianagraf.de" target="_blank">dianagraf.de</a>
             </span>
           </div>
         </div>
